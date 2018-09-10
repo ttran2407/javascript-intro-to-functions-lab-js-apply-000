@@ -21,14 +21,17 @@ function logWhisper (string) {
 }
 
 function sayHiToGrandma (string) {
+
   //creat newString is equal string
   var newString = string;
+
   //creat lowerCaseString and UpperCaseString
   var lowerCase = newString.toLowerCase();
   var upperCase = newString.toUpperCase();
+
   // compare the lowerCase and UpperCase with string, respectively
   if (lowerCase === string) {
-    return "I can't hear you"
+    return "I can't hear you!"
   }
   if (upperCase === string) {
 
